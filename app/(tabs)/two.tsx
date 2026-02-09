@@ -1,4 +1,4 @@
-import { Text, View } from '@/components/Themed';
+import { Text, View } from '../../components/Themed';
 import { FontAwesome } from '@expo/vector-icons';
 import { Image, Pressable, ScrollView, StyleSheet } from 'react-native';
 import { useState } from 'react';
@@ -43,7 +43,7 @@ export default function ProfileScreen() {
 
           <View style={styles.highlightCard}>
             <Image source={{ uri: 'https://preview.redd.it/post-the-best-cat-memes-you-got-in-the-comments-please-v0-kg82lbnu0ste1.png?auto=webp&s=e6f9eee86484f5de3f4e31f3c33b2d07fb982bd5' }} style={styles.highlightImage} />
-            <Text style={styles.highlightText}>แมว</Text>
+            <Text style={styles.highlightText}>แมวเป้า</Text>
           </View>
 
           <View style={styles.highlightCard}>
@@ -64,16 +64,16 @@ export default function ProfileScreen() {
         
         <Post 
           name="Nattawut Wannasukk"
-          caption="แมวน้ำอ้วนน"
+          caption="แมวน้ำกลิ้งงง"
           Profile_url="https://media.istockphoto.com/id/1455061462/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B8%99%E0%B9%89%E0%B9%8D%E0%B8%B2%E0%B8%8A%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B9%83%E0%B8%95%E0%B9%89%E0%B8%AB%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%A1-%E0%B9%82%E0%B8%81%E0%B8%A5%E0%B8%94%E0%B9%8C%E0%B8%AE%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%9A%E0%B8%AD%E0%B8%A3%E0%B9%8C-%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%B0%E0%B9%80%E0%B8%8B%E0%B8%B2%E0%B8%97%E0%B9%8C%E0%B8%88%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%88%E0%B8%B5%E0%B8%A2.jpg?s=612x612&w=0&k=20&c=tg91D3ZcBcvLlnMpZMSSPt3nOpzuANbA3LnNQb0jfwI="
-          Post="https://image.springnews.co.th/uploads/images/contents/w1024/2023/03/Be7kcUQSNFF8HyZUhbAW.webp"
+          Post="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk2qk-GqeuPG4WrjwUxNy1wXVglc2JOs4kPw&s"
         />
 
         <Post 
           name="Nattawut Wannasukk"
-          caption="โพสต์ที่สองก็มีหัวโปรไฟล์เหมือนกันแล้วครับ!"
+          caption="เวรี่กู๊ด👍🏻!"
           Profile_url="https://media.istockphoto.com/id/1455061462/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B8%99%E0%B9%89%E0%B9%8D%E0%B8%B2%E0%B8%8A%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B9%83%E0%B8%95%E0%B9%89%E0%B8%AB%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%A1-%E0%B9%82%E0%B8%81%E0%B8%A5%E0%B8%94%E0%B9%8C%E0%B8%AE%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%9A%E0%B8%AD%E0%B8%A3%E0%B9%8C-%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%B0%E0%B9%80%E0%B8%8B%E0%B8%B2%E0%B8%97%E0%B9%8C%E0%B8%88%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%88%E0%B8%B5%E0%B8%A2.jpg?s=612x612&w=0&k=20&c=tg91D3ZcBcvLlnMpZMSSPt3nOpzuANbA3LnNQb0jfwI="
-          Post="https://image.springnews.co.th/uploads/images/contents/w1024/2023/03/Be7kcUQSNFF8HyZUhbAW.webp"
+          Post="https://i.ytimg.com/vi/j1YEVm5M-YM/maxresdefault.jpg"
         />
 
       </View>

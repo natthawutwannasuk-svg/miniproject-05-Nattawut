@@ -1,12 +1,12 @@
-import { Text } from '@/components/Themed';
+import { Text } from '../../components/Themed';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import { Tabs } from 'expo-router';
 import React from 'react';
 import { Pressable } from 'react-native';
 
-import { useClientOnlyValue } from '@/components/useClientOnlyValue';
-import { useColorScheme } from '@/components/useColorScheme';
-import Colors from '@/constants/Colors';
+import { useClientOnlyValue } from '../../components/useClientOnlyValue';
+import { useColorScheme } from '../../components/useColorScheme';
+import Colors from '../../constants/Colors';
 
 function TabBarIcon(props: {
   name: React.ComponentProps<typeof FontAwesome>['name'];
@@ -35,6 +35,8 @@ export default function TabLayout() {
       fontSize: 24,
     },
     tabBarLabel: 'Feed',
+    tabBarIcon: ({color}) => <FontAwesome
+    name='home' size={28} color={color} />,
   headerRight: () => (
   <Pressable 
     onPress={() => alert('ออกจากระบบ')} 
@@ -61,6 +63,8 @@ export default function TabLayout() {
       fontSize: 24,
     },
     tabBarLabel: 'Profile',
+    tabBarIcon: ({color}) => <FontAwesome
+    name='user' size={28} color={color} />,
   headerRight: () => (
   <Pressable 
     onPress={() => alert('ออกจากระบบ')} 
